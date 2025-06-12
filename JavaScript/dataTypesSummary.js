@@ -1,11 +1,11 @@
 /*
 How data is placed in memory and how can we access it we catagorized datatypes mainly in two forms
 
-1)Primitive(call by value)
+1)Primitive(call by value) => Stack
 7 types:
 string, number, boolean, null, undefined, symbol, BigInt
 
-2)Non-Primitive(by Reference)
+2)Non-Primitive(by Reference) => Heap 
 Array, Object, functions
 
 */
@@ -22,7 +22,7 @@ const heroes = ["shaktiman", "qauide azam"]
 
 //objects
 
-let my obj = {
+let myobj = {
     name: "abubakar",
     age: 21
 }
