@@ -40,3 +40,33 @@ function login(username){
 }
 
 console.log(login());
+
+
+//rest operator
+
+function calValue(...num1){
+    return num1
+}
+
+console.log(calValue(200, 300, 400));
+
+const user = {
+    name : "abubakar",
+    price : 200
+}
+
+function handleObjects(Object){
+    console.log(`username is ${Object.name} and price is ${Object.price}`);
+    
+}
+
+handleObjects(user)
+
+//another way
+
+handleObjects({
+    name : "Ali",
+    price: 200
+})
+
+//similarly you can pass array in a function
