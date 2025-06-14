@@ -70,3 +70,19 @@ handleObjects({
 })
 
 //similarly you can pass array in a function
+
+//expression function
+
+ sum1(5) //can access
+
+function sum1(num){
+    return num+1
+}
+
+
+sum(5) // can not access
+const sum = function(num){
+    return num+1
+}
+
+sum(3)
