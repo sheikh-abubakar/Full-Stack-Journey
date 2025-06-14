@@ -1,0 +1,15 @@
+JavaScript Execution Contest
+
+1)Global Execution Context
+2)Function Execution Context
+3)Eval Execution Context
+
+two phases
+
+1)Memory Creation Phase
+2)Memory Execution Phase
+
+i)Global Execution using this
+ii)memory Phase(undefined assign to values)
+
+can learn in details via =>   https://www.youtube.com/watch?v=ByhtOgF6uYM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=25
