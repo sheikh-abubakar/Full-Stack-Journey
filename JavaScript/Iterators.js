@@ -60,6 +60,7 @@ for (const key in myobj) {
 
 
 /*  ***For Each Loop*** */
+//it soes not return value
 
 const language = ["js", "ruby", "cpp", "py"]
 //callback function odes not have name
