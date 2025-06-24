@@ -28,4 +28,4 @@ const masalaChai = new User("masalaChai")
 masalaChai.logMe()
 
 console.log(chai instanceof User);
-console.log(chai ==== User);//false
+console.log(chai === User);//false
